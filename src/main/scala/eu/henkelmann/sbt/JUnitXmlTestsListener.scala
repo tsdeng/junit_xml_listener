@@ -5,7 +5,8 @@ import java.io.{StringWriter, PrintWriter, File}
 import java.net.InetAddress
 import scala.collection.mutable.ListBuffer
 import scala.xml.{Elem, Node, XML}
-import org.scalatools.testing.{Event => TEvent, Result => TResult, Logger => TLogger}
+import org.scalatools.testing.{Result => TResult, Logger => TLogger}
+import sbt.testing.Event
 /*
 The api for the test interface defining the results and events
 can be found here: 
